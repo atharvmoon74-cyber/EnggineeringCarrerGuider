@@ -1,0 +1,184 @@
+/* =========================
+GLOBAL
+========================= */
+
+body{
+
+margin:0;
+font-family:Segoe UI;
+
+background:linear-gradient(120deg,#020617,#0f172a,#020617);
+
+color:white;
+
+text-align:center;
+
+overflow-x:hidden;
+
+}
+
+
+/* =========================
+HEADER
+========================= */
+
+header{
+
+padding:60px 20px;
+
+}
+
+header h1{
+
+font-size:52px;
+margin-bottom:10px;
+
+background:linear-gradient(90deg,#60a5fa,#22c55e);
+
+-webkit-background-clip:text;
+color:transparent;
+
+}
+
+header p{
+
+font-size:18px;
+opacity:0.8;
+
+}
+
+
+/* =========================
+SEARCH
+========================= */
+
+.searchBox{
+
+margin-top:20px;
+
+}
+
+#search{
+
+padding:14px;
+
+width:320px;
+
+border-radius:10px;
+
+border:none;
+
+font-size:16px;
+
+outline:none;
+
+}
+
+
+/* =========================
+BRANCH GRID
+========================= */
+
+#branches{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+gap:25px;
+
+max-width:1200px;
+
+margin:60px auto;
+
+padding:20px;
+
+}
+
+
+/* =========================
+BRANCH BUTTON
+========================= */
+
+.branchButton{
+
+padding:25px;
+
+font-size:20px;
+
+border:none;
+
+border-radius:14px;
+
+cursor:pointer;
+
+background:linear-gradient(145deg,#2563eb,#3b82f6);
+
+color:white;
+
+box-shadow:0 12px 30px rgba(0,0,0,0.5);
+
+transition:0.35s;
+
+font-weight:bold;
+
+}
+
+
+/* HOVER */
+
+.branchButton:hover{
+
+transform:translateY(-8px) scale(1.05);
+
+background:linear-gradient(145deg,#1d4ed8,#2563eb);
+
+}
+
+
+/* =========================
+FOOTER
+========================= */
+
+footer{
+
+margin-top:60px;
+
+padding:30px;
+
+opacity:0.7;
+
+}
+
+
+/* =========================
+BACKGROUND PARTICLES
+========================= */
+
+.particle{
+
+position:fixed;
+
+width:4px;
+height:4px;
+
+background:white;
+
+opacity:0.2;
+
+top:-10px;
+
+animation:fall linear infinite;
+
+}
+
+
+@keyframes fall{
+
+to{
+
+transform:translateY(110vh);
+
+}
+
+}

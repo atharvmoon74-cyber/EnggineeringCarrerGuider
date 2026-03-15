@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<title>Data Science</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Segoe UI;
+background:linear-gradient(180deg,#e0f2fe,#bae6fd,#e0f2fe);
+color:#0c4a6e;
+}
+
+/* HEADER */
+
+header{
+text-align:center;
+padding:40px;
+background:#bae6fd;
+border-bottom:2px solid #38bdf8;
+}
+
+header h1{
+font-size:40px;
+color:#0369a1;
+}
+
+header p{
+font-size:18px;
+color:#075985;
+}
+
+/* CONTAINER */
+
+.container{
+max-width:1000px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:30px;
+padding:40px;
+}
+
+/* CARD */
+
+.card{
+background:white;
+border:1px solid #38bdf8;
+padding:25px;
+border-radius:12px;
+transition:0.4s;
+box-shadow:0 0 15px rgba(56,189,248,0.2);
+}
+
+.card:hover{
+transform:translateY(-6px);
+box-shadow:0 0 25px rgba(56,189,248,0.4);
+}
+
+.card h2{
+color:#0284c7;
+margin-bottom:15px;
+}
+
+/* LIST */
+
+ul{
+line-height:1.8;
+}
+
+/* TABLE */
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+td,th{
+padding:10px;
+border-bottom:1px solid #7dd3fc;
+}
+
+th{
+color:#0284c7;
+text-align:left;
+}
+
+/* FLOATING ICONS */
+
+.data{
+position:fixed;
+font-size:28px;
+opacity:0.15;
+animation:dataMove 30s linear infinite;
+}
+
+.data:nth-child(1){
+top:15%;
+left:-10%;
+}
+
+.data:nth-child(2){
+top:45%;
+left:-15%;
+animation-delay:10s;
+}
+
+.data:nth-child(3){
+top:75%;
+left:-20%;
+animation-delay:20s;
+}
+
+@keyframes dataMove{
+0%{transform:translateX(0)}
+100%{transform:translateX(140vw)}
+}
+
+/* BACK BUTTON */
+
+.back{
+display:block;
+margin:40px auto;
+padding:12px 25px;
+background:#38bdf8;
+border:none;
+border-radius:8px;
+font-weight:bold;
+cursor:pointer;
+color:white;
+}
+
+.back:hover{
+background:#0284c7;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="data">📊</div>
+<div class="data">📈</div>
+<div class="data">💻</div>
+
+<header>
+
+<h1>📊 Data Science</h1>
+
+<p>Extracting Knowledge and Insights from Data</p>
+
+</header>
+
+<div class="container">
+
+<div class="card">
+
+<h2>🌍 Overview</h2>
+
+<p>
+Data Science focuses on extracting insights from large datasets
+using statistics, machine learning, and data visualization.
+</p>
+
+<p>
+Data scientists help organizations make better decisions
+using predictive models and analytics.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h2>🧠 Skills Required</h2>
+
+<ul>
+
+<li>🐍 Python / R Programming</li>
+<li>📊 Statistics & Probability</li>
+<li>📉 Data Analysis</li>
+<li>🧠 Machine Learning</li>
+<li>📊 Data Visualization</li>
+<li>💾 Database Management</li>
+
+</ul>
+
+</div>
+
+
+<div class="card">
+
+<h2>📚 Core Subjects</h2>
+
+<ul>
+
+<li>📊 Statistical Analysis</li>
+<li>🧠 Machine Learning</li>
+<li>📈 Data Visualization</li>
+<li>📦 Big Data Analytics</li>
+<li>💾 Database Systems</li>
+
+</ul>
+
+</div>
+
+
+<div class="card">
+
+<h2>💻 Tools & Technologies</h2>
+
+<ul>
+
+<li>🐍 Python</li>
+<li>📊 Pandas</li>
+<li>📉 NumPy</li>
+<li>📈 Matplotlib</li>
+<li>📊 Tableau</li>
+<li>💾 SQL</li>
+
+</ul>
+
+</div>
+
+
+<div class="card">
+
+<h2>💡 Beginner Projects</h2>
+
+<ul>
+
+<li>📊 Sales Data Dashboard</li>
+<li>🎬 Movie Recommendation System</li>
+<li>📉 Stock Market Analysis</li>
+<li>📈 Data Visualization Dashboard</li>
+<li>📊 Customer Segmentation</li>
+
+</ul>
+
+</div>
+
+
+<div class="card">
+
+<h2>📊 Salary Growth (India)</h2>
+
+<table>
+
+<tr>
+<th>Level</th>
+<th>Salary</th>
+</tr>
+
+<tr>
+<td>Entry</td>
+<td>₹7 LPA</td>
+</tr>
+
+<tr>
+<td>Mid Level</td>
+<td>₹16 LPA</td>
+</tr>
+
+<tr>
+<td>Senior</td>
+<td>₹35 LPA+</td>
+</tr>
+
+</table>
+
+</div>
+
+
+<div class="card">
+
+<h2>🏢 Top Recruiters</h2>
+
+<ul>
+
+<li>📦 Amazon</li>
+<li>📱 Google</li>
+<li>📘 Meta</li>
+<li>💻 Microsoft</li>
+<li>📊 Deloitte</li>
+
+</ul>
+
+</div>
+
+
+<div class="card">
+
+<h2>🎓 Best Universities</h2>
+
+<ul>
+
+<li>🏛 IIT Madras</li>
+<li>🏛 IIT Bombay</li>
+<li>🏛 Stanford</li>
+<li>🏛 MIT</li>
+<li>🏛 Carnegie Mellon</li>
+
+</ul>
+
+</div>
+
+
+<div class="card">
+
+<h2>🚀 Future Scope</h2>
+
+<ul>
+
+<li>📊 Big Data Analytics</li>
+<li>🧠 AI & Machine Learning</li>
+<li>📈 Business Intelligence</li>
+<li>🌍 Data Driven Decision Making</li>
+<li>📊 Predictive Analytics</li>
+
+</ul>
+
+</div>
+
+
+<div class="card">
+
+<h2>📅 Career Roadmap</h2>
+
+<ul>
+
+<li>📘 Year 1 → Programming Basics</li>
+<li>📊 Year 2 → Statistics & Databases</li>
+<li>📈 Year 3 → Machine Learning</li>
+<li>💻 Year 4 → Data Science Projects</li>
+<li>🚀 After → Data Scientist / ML Engineer</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<button class="back" onclick="history.back()">⬅ Back to Explorer</button>
+
+</body>
+</html>

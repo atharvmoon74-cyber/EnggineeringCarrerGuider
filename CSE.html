@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<title>Computer Science Engineering</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Segoe UI;
+background:black;
+color:#00ff9c;
+overflow-x:hidden;
+}
+
+/* MATRIX CANVAS */
+
+#matrix{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+z-index:-1;
+}
+
+/* HEADER */
+
+header{
+text-align:center;
+padding:40px;
+border-bottom:2px solid #00ff9c;
+background:rgba(0,0,0,0.7);
+}
+
+header h1{
+font-size:40px;
+color:#00ff9c;
+}
+
+header p{
+font-size:18px;
+color:#a7f3d0;
+}
+
+/* CONTAINER */
+
+.container{
+max-width:1000px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:30px;
+padding:40px;
+}
+
+/* CARD */
+
+.card{
+background:rgba(0,0,0,0.7);
+border:1px solid #00ff9c;
+padding:25px;
+border-radius:10px;
+transition:0.4s;
+}
+
+.card:hover{
+transform:translateY(-6px);
+box-shadow:0 0 25px #00ff9c;
+}
+
+.card h2{
+color:#00ff9c;
+margin-bottom:15px;
+}
+
+/* LIST */
+
+ul{
+line-height:1.8;
+}
+
+/* TABLE */
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+td,th{
+padding:10px;
+border-bottom:1px solid #00ff9c;
+}
+
+th{
+text-align:left;
+color:#00ff9c;
+}
+
+/* BACK BUTTON */
+
+.back{
+display:block;
+margin:40px auto;
+padding:12px 25px;
+background:#00ff9c;
+border:none;
+border-radius:8px;
+font-weight:bold;
+cursor:pointer;
+color:black;
+}
+
+.back:hover{
+background:#00d084;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<canvas id="matrix"></canvas>
+
+<header>
+
+<h1>💻 Computer Science Engineering</h1>
+
+<p>Building Software, Systems, and the Digital Future</p>
+
+</header>
+
+<div class="container">
+
+<div class="card">
+
+<h2>🌍 Overview</h2>
+
+<p>
+Computer Science Engineering focuses on the design,
+development, and optimization of software systems,
+algorithms, and computer technologies.
+</p>
+
+<p>
+CSE powers modern technologies like artificial intelligence,
+cloud computing, cybersecurity, and web platforms.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>🧠 Skills Required</h2>
+
+<ul>
+
+<li>💻 Programming (C, C++, Python, Java)</li>
+<li>📊 Data Structures & Algorithms</li>
+<li>🌐 Web Development</li>
+<li>☁ Cloud Computing</li>
+<li>🔐 Cybersecurity</li>
+<li>🧠 Artificial Intelligence</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>📚 Core Subjects</h2>
+
+<ul>
+
+<li>📊 Data Structures</li>
+<li>💻 Operating Systems</li>
+<li>🌐 Computer Networks</li>
+<li>🧠 Artificial Intelligence</li>
+<li>📦 Database Management Systems</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>💻 Programming Languages</h2>
+
+<ul>
+
+<li>🐍 Python</li>
+<li>☕ Java</li>
+<li>⚙ C++</li>
+<li>🌐 JavaScript</li>
+<li>🧱 C</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>💡 Beginner Projects</h2>
+
+<ul>
+
+<li>🌐 Personal Portfolio Website</li>
+<li>📊 Data Visualization Dashboard</li>
+<li>🤖 Chatbot</li>
+<li>🛒 E-Commerce Website</li>
+<li>🎮 JavaScript Games</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>📊 Salary Growth (India)</h2>
+
+<table>
+
+<tr>
+<th>Level</th>
+<th>Salary</th>
+</tr>
+
+<tr>
+<td>Entry</td>
+<td>₹6 LPA</td>
+</tr>
+
+<tr>
+<td>Mid Level</td>
+<td>₹15 LPA</td>
+</tr>
+
+<tr>
+<td>Senior</td>
+<td>₹35 LPA+</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="card">
+
+<h2>🏢 Top Recruiters</h2>
+
+<ul>
+
+<li>💻 Google</li>
+<li>📦 Amazon</li>
+<li>📱 Microsoft</li>
+<li>📘 Meta</li>
+<li>🚀 NVIDIA</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>🎓 Best Universities</h2>
+
+<ul>
+
+<li>🏛 IIT Bombay</li>
+<li>🏛 IIT Delhi</li>
+<li>🏛 IIT Madras</li>
+<li>🏛 MIT</li>
+<li>🏛 Stanford</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>🚀 Future Scope</h2>
+
+<ul>
+
+<li>🤖 Artificial Intelligence</li>
+<li>☁ Cloud Computing</li>
+<li>🔐 Cybersecurity</li>
+<li>🌐 Web3</li>
+<li>🧠 Quantum Computing</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>📅 Career Roadmap</h2>
+
+<ul>
+
+<li>📘 Year 1 → Programming Basics</li>
+<li>📊 Year 2 → Data Structures</li>
+<li>🌐 Year 3 → Web / Backend Development</li>
+<li>💻 Year 4 → System Design Projects</li>
+<li>🚀 After → Software Engineer / AI Engineer</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<button class="back" onclick="history.back()">⬅ Back to Explorer</button>
+
+<script>
+
+/* MATRIX RAIN EFFECT */
+
+const canvas = document.getElementById("matrix")
+const ctx = canvas.getContext("2d")
+
+canvas.width = window.innerWidth
+canvas.height = window.innerHeight
+
+const letters = "01"
+const fontSize = 14
+const columns = canvas.width / fontSize
+
+const drops = []
+
+for(let x = 0; x < columns; x++)
+drops[x] = 1
+
+function draw(){
+
+ctx.fillStyle = "rgba(0,0,0,0.05)"
+ctx.fillRect(0,0,canvas.width,canvas.height)
+
+ctx.fillStyle = "#00ff9c"
+ctx.font = fontSize + "px monospace"
+
+for(let i=0;i<drops.length;i++){
+
+const text = letters[Math.floor(Math.random()*letters.length)]
+
+ctx.fillText(text,i*fontSize,drops[i]*fontSize)
+
+if(drops[i]*fontSize > canvas.height && Math.random() > 0.975)
+drops[i] = 0
+
+drops[i]++
+
+}
+
+}
+
+setInterval(draw,33)
+
+</script>
+
+</body>
+</html>
