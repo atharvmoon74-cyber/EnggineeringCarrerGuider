@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<title>Electrical Engineering</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Segoe UI;
+background:linear-gradient(180deg,#2e1065,#4c1d95,#2e1065);
+color:#ede9fe;
+}
+
+/* HEADER */
+
+header{
+text-align:center;
+padding:40px;
+background:#2e1065;
+border-bottom:2px solid #a78bfa;
+}
+
+header h1{
+font-size:40px;
+color:#c4b5fd;
+}
+
+header p{
+font-size:18px;
+color:#ddd6fe;
+}
+
+/* CONTAINER */
+
+.container{
+max-width:1000px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:30px;
+padding:40px;
+}
+
+/* CARD */
+
+.card{
+background:#3b0764;
+border:1px solid #a78bfa;
+padding:25px;
+border-radius:12px;
+transition:0.4s;
+box-shadow:0 0 20px rgba(167,139,250,0.25);
+}
+
+.card:hover{
+transform:translateY(-6px);
+box-shadow:0 0 30px rgba(167,139,250,0.6);
+}
+
+.card h2{
+color:#c4b5fd;
+margin-bottom:15px;
+}
+
+/* LIST */
+
+ul{
+line-height:1.8;
+}
+
+/* TABLE */
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+td,th{
+padding:10px;
+border-bottom:1px solid #7c3aed;
+}
+
+th{
+color:#c4b5fd;
+text-align:left;
+}
+
+/* FLOATING ICONS */
+
+.electric{
+position:fixed;
+font-size:30px;
+opacity:0.15;
+animation:electricMove 30s linear infinite;
+}
+
+.electric:nth-child(1){
+top:15%;
+left:-10%;
+}
+
+.electric:nth-child(2){
+top:45%;
+left:-15%;
+animation-delay:10s;
+}
+
+.electric:nth-child(3){
+top:75%;
+left:-20%;
+animation-delay:20s;
+}
+
+@keyframes electricMove{
+0%{transform:translateX(0)}
+100%{transform:translateX(140vw)}
+}
+
+/* BACK BUTTON */
+
+.back{
+display:block;
+margin:40px auto;
+padding:12px 25px;
+background:#a78bfa;
+border:none;
+border-radius:8px;
+font-weight:bold;
+cursor:pointer;
+color:#2e1065;
+}
+
+.back:hover{
+background:#c4b5fd;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="electric">⚡</div>
+<div class="electric">🔌</div>
+<div class="electric">💡</div>
+
+<header>
+
+<h1>⚡ Electrical Engineering</h1>
+
+<p>Powering the Modern World with Electricity & Energy Systems</p>
+
+</header>
+
+<div class="container">
+
+<div class="card">
+
+<h2>🌍 Overview</h2>
+
+<p>
+Electrical Engineering focuses on electricity, electronics,
+power systems, and electromagnetic technologies.
+</p>
+
+<p>
+Electrical engineers design power grids, renewable energy
+systems, electric vehicles, and smart energy technologies.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h2>🧠 Skills Required</h2>
+
+<ul>
+
+<li>⚡ Circuit Analysis</li>
+<li>🔌 Power Systems</li>
+<li>📊 Control Systems</li>
+<li>💡 Electrical Machines</li>
+<li>📉 Signal Processing</li>
+<li>🔋 Renewable Energy Systems</li>
+
+</ul>
+
+</div>
+
+
+<div class="card">
+
+<h2>📚 Core Subjects</h2>
+
+<ul>
+
+<li>⚡ Power Electronics</li>
+<li>🔌 Electrical Machines</li>
+<li>📊 Control Systems</li>
+<li>📡 Signal Processing</li>
+<li>🔋 Renewable Energy Engineering</li>
+
+</ul>
+
+</div>
+
+
+<div class="card">
+
+<h2>🛠 Tools & Technologies</h2>
+
+<ul>
+
+<li>⚡ MATLAB</li>
+<li>🔌 PSCAD</li>
+<li>📊 Simulink</li>
+<li>💡 AutoCAD Electrical</li>
+<li>📡 Multisim</li>
+
+</ul>
+
+</div>
+
+
+<div class="card">
+
+<h2>💡 Beginner Projects</h2>
+
+<ul>
+
+<li>💡 Smart Home Automation</li>
+<li>🔋 Solar Power System Model</li>
+<li>⚡ Wireless Power Transfer</li>
+<li>🔌 Power Consumption Monitor</li>
+<li>💡 LED Matrix Display</li>
+
+</ul>
+
+</div>
+
+
+<div class="card">
+
+<h2>📊 Salary Growth (India)</h2>
+
+<table>
+
+<tr>
+<th>Level</th>
+<th>Salary</th>
+</tr>
+
+<tr>
+<td>Entry</td>
+<td>₹5 LPA</td>
+</tr>
+
+<tr>
+<td>Mid Level</td>
+<td>₹12 LPA</td>
+</tr>
+
+<tr>
+<td>Senior</td>
+<td>₹25 LPA+</td>
+</tr>
+
+</table>
+
+</div>
+
+
+<div class="card">
+
+<h2>🏢 Top Recruiters</h2>
+
+<ul>
+
+<li>⚡ Siemens</li>
+<li>🔌 ABB</li>
+<li>🔋 Schneider Electric</li>
+<li>💡 Tata Power</li>
+<li>⚡ NTPC</li>
+
+</ul>
+
+</div>
+
+
+<div class="card">
+
+<h2>🎓 Best Universities</h2>
+
+<ul>
+
+<li>🏛 IIT Bombay</li>
+<li>🏛 IIT Madras</li>
+<li>🏛 IIT Delhi</li>
+<li>🏛 Stanford</li>
+<li>🏛 MIT</li>
+
+</ul>
+
+</div>
+
+
+<div class="card">
+
+<h2>🚀 Future Scope</h2>
+
+<ul>
+
+<li>⚡ Smart Grids</li>
+<li>🔋 Electric Vehicles</li>
+<li>🌞 Renewable Energy</li>
+<li>💡 Smart Homes</li>
+<li>⚡ Sustainable Power Systems</li>
+
+</ul>
+
+</div>
+
+
+<div class="card">
+
+<h2>📅 Career Roadmap</h2>
+
+<ul>
+
+<li>📘 Year 1 → Engineering Basics</li>
+<li>⚡ Year 2 → Circuits & Electronics</li>
+<li>🔌 Year 3 → Power Systems</li>
+<li>🔋 Year 4 → Renewable Energy Projects</li>
+<li>🚀 After → Electrical Engineer / Power Systems Engineer</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<button class="back" onclick="history.back()">⬅ Back to Explorer</button>
+
+</body>
+</html>
